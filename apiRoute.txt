@@ -1,0 +1,12 @@
+api/createUser  POST  json {  FirstName :  string }
+api/listUsers   GET
+api/showUserCart/{userId}   GET
+api/addToCart/{userId}   POST    json { UserId  string, ProductId string, Qty int64, Amount float64 }
+api/addOrder/{userId}   POST    
+api/addProduct/         POST   json{ type.Product }
+api/product/{productId}        DELETE  
+api/product/{productId}     PUT  json{ type.Product } 
+api/products                GET
+api/addCategory              POST   json{}
+api/category              GET   
+api/listProductsByCat/{catId}             GET   
